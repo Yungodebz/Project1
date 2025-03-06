@@ -101,8 +101,8 @@ p{
   
     .container {
         background-color:#1d1d1d;
-        min-width: 68%;  
-        min-height: 72%;
+        width: 68%;  
+        height: 72%;
         margin: 0 auto;
         align-items: center;
         border-radius: 10px;
