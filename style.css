@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0e0e0e;
+    color: #fff;
+    font-family: sans-serif;
+}
+.main-container{
+    background-color:#131212;
+    width: 80%;
+    height: 650px;
+    position: relative;
+    margin-left: 10%;
+}
+.container{
+    background-color:#1d1d1d;
+    width: 25%;  
+    height: 70%;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease-in-out;
+    
+}
+img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 23%;
+    margin-top: 20px;  
+}
+.top-area{
+    margin-left: 17%;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%; 
+}
+button{
+    margin-top: 12px;
+    padding: 11px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    color: #fff;
+    background-color:#292828;
+    font-size: 10px;
+    font-weight: bold;
+    
+}
+.insta{
+    margin-bottom: 30px;
+}
+
+h3{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+h6{
+    color: rgb(225, 247, 31);
+    margin-top: 10px;
+    margin-bottom: 16px;
+    margin-left: 23%;
+}
+p{
+    font-size: 10px;
+    color: rgb(233, 230, 230);
+    margin-bottom: 10px;
+    margin-left: 30px;
+    white-space: nowrap;
+}
+
+
+/* Media Query */
+
+
+/* Mobile Specific Styles (768px and below) */
+.container {
+    display: block; 
+  }
+  
+  @media (max-width: 768px) {
+    .main-container {
+      display: contents; 
+    }
+    .container > * {
+      display: block; 
+    }
+  
+    .container {
+        background-color:#1d1d1d;
+        min-width: 90%;  
+        min-height: 85%;
+        margin: 0 auto;
+        align-items: center;
+        border-radius: 10px;
+        margin-bottom: 100px;
+        position: absolute;
+      }
+      
+      .container img {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-left: 37%;
+        margin-top: 20px;  
+      }
+      .container .top-area {
+        margin-left: 0; 
+      }
+      .container .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+      }
+      .container button {
+        margin-top: 12px;
+        padding: 11px;
+        border-radius: 5px;
+        border: none;
+        width: 80vw;
+        display: block;
+        color: #fff;
+        background-color:#292828;
+        font-size: 12px;
+        font-weight: bold;
+     } 
+     .container p{
+        font-size: 10px;
+        color: rgb(233, 230, 230);
+        margin-bottom: 10px;
+        margin-left: 10%;
+        font-weight: bold;
+        white-space: nowrap;
+        width: 50%;
+    }
+    .container h6{
+        color: rgb(225, 247, 31);
+        margin-top: 10px;
+        margin-bottom: 16px;
+        margin-left: 38%;
+    }
+    .container h3{
+        margin-top: 20px;
+        margin-left: 27%;
+        margin-bottom: 10px;
+    }
+    
+      }
+    
+    
+  
+  @media (min-width: 769px) { /* desktop rules */
+      .container{
+          display: block; /* display inner container on desktop */
+      }
+    }
+
+    
+
+  
