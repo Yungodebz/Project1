@@ -46,7 +46,8 @@ img{
     display: flex;
     flex-direction: column;
     width: 80%;
-    margin-left: 10%; 
+    margin-left: 10%;
+    text-decoration: none; 
 }
 button{
     margin-top: 12px;
@@ -86,8 +87,6 @@ p{
 
 /* Media Query */
 
-
-/* Mobile Specific Styles (768px and below) */
 .container {
     display: block; 
   }
@@ -102,8 +101,8 @@ p{
   
     .container {
         background-color:#1d1d1d;
-        min-width: 90%;  
-        min-height: 85%;
+        min-width: 68%;  
+        min-height: 72%;
         margin: 0 auto;
         align-items: center;
         border-radius: 10px;
@@ -116,8 +115,8 @@ p{
         height: 75px;
         border-radius: 50%;
         object-fit: cover;
-        margin-left: 37%;
-        margin-top: 20px;  
+        margin-left: 36%;
+        margin-top: 10px;  
       }
       .container .top-area {
         margin-left: 0; 
@@ -126,13 +125,14 @@ p{
         display: flex;
         flex-direction: column;
         align-items: center; 
+        text-decoration: none;
       }
       .container button {
-        margin-top: 12px;
+        margin-top: 5px;
         padding: 11px;
         border-radius: 5px;
         border: none;
-        width: 80vw;
+        width: 60vw;
         display: block;
         color: #fff;
         background-color:#292828;
@@ -142,20 +142,20 @@ p{
      .container p{
         font-size: 10px;
         color: rgb(233, 230, 230);
-        margin-bottom: 10px;
-        margin-left: 10%;
+        margin-bottom: 5px;
+        margin-left: 8%;
         font-weight: bold;
         white-space: nowrap;
         width: 50%;
     }
     .container h6{
         color: rgb(225, 247, 31);
-        margin-top: 10px;
-        margin-bottom: 16px;
-        margin-left: 38%;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 36%;
     }
     .container h3{
-        margin-top: 20px;
+        margin-top: 10px;
         margin-left: 27%;
         margin-bottom: 10px;
     }
