@@ -106,7 +106,7 @@ p{
     .container {
         background-color:#1d1d1d;
         width: 68%;  
-        height: 60%;
+        height: 55%;
         margin: 0 auto;
         align-items: center;
         border-radius: 10px;
@@ -123,7 +123,7 @@ p{
         border-radius: 50%;
         object-fit: cover;
         margin-left: 36%;
-        margin-top: 10px;  
+        margin-top: 15px;  
       }
       .container .top-area {
         margin-left: 0; 
@@ -151,7 +151,7 @@ p{
         font-size: 10px;
         color: rgb(233, 230, 230);
         margin-bottom: 5px;
-        margin-left: 8%;
+        margin-left: 10%;
         font-weight: bold;
         white-space: nowrap;
         width: 50%;
