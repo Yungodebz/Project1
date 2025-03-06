@@ -71,6 +71,9 @@ h3{
     margin-left: 10%;
     margin-bottom: 10px;
 }
+a{
+    text-decoration: none;
+  }
 h6{
     color: rgb(225, 247, 31);
     margin-top: 10px;
@@ -103,14 +106,17 @@ p{
     .container {
         background-color:#1d1d1d;
         width: 68%;  
-        height: 40%;
+        height: 50%;
         margin: 0 auto;
         align-items: center;
         border-radius: 10px;
         margin-bottom: 100px;
         position: absolute;
       }
-      
+      .container a {
+        text-decoration: none;
+        color: inherit;
+      }
       .container img {
         width: 75px;
         height: 75px;
