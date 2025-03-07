@@ -107,7 +107,7 @@ p{
   
     .container {
         background-color:#1d1d1d;
-        width: 57%;  
+        width: 60%;  
         height: 55%;
         margin: 0 auto;
         align-items: center;
@@ -159,7 +159,7 @@ p{
         font-size: 10px;
         color: rgb(233, 230, 230);
         margin-bottom: 5px;
-        margin-left: 10%;
+        margin-left: 7%;
         font-weight: bold;
         white-space: nowrap;
         width: 50%;
