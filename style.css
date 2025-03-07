@@ -18,7 +18,7 @@ body{
 .container{
     background-color:#1d1d1d;
     width: 25%;  
-    height: 70%;
+    height: 68%;
     margin: 0 auto;
     align-items: center;
     border-radius: 10px;
@@ -45,8 +45,8 @@ img{
 .buttons{
     display: flex;
     flex-direction: column;
-    width: 80%;
-    margin-left: 10%;
+    
+    margin-left: 8%;
     text-decoration: none; 
 }
 button{
@@ -54,16 +54,18 @@ button{
     padding: 11px;
     border-radius: 5px;
     border: none;
-    width: 100%;
+    width: 92%;
     color: #fff;
     background-color:#292828;
     font-size: 10px;
     font-weight: bold;
     text-decoration: none;
+
+  
     
 }
 .insta{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 h3{
@@ -105,13 +107,18 @@ p{
   
     .container {
         background-color:#1d1d1d;
-        width: 68%;  
-        height: 55%;
+        width: 55%;  
+        height: 67%;
         margin: 0 auto;
         align-items: center;
         border-radius: 10px;
         margin-bottom: 100px;
         position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        justify-content: center;
+        
       }
       .container a {
         text-decoration: none !important;
@@ -129,23 +136,24 @@ p{
         margin-left: 0; 
       }
       .container .buttons {
-        display: flex;
-        flex-direction: column;
-        align-items: center; 
+        width: 100%;
         text-decoration: none;
+        margin-left: 8%;
       }
       .container button {
         margin-top: 10px;
         padding: 11px;
         border-radius: 5px;
         border: none;
-        width: 60vw;
+        width: 85%;
         display: block;
         color: #fff;
         background-color:#292828;
         font-size: 12px;
         font-weight: bold;
         text-decoration: none;
+    
+        
      } 
      .container p{
         font-size: 10px;
